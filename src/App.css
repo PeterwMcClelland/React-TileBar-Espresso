@@ -28,6 +28,32 @@
   color: #61dafb;
 }
 
+
+/* Header */
+
+.header {
+  height: 200px;
+  width: auto;
+  background-color: bisque;
+  
+}
+
+.titleh1 {
+  font-weight: bold;
+  }
+
+  /* .navbar {
+    text-decoration: none;
+  } */
+
+  .navcomponents {
+    list-style-type: none;
+  }
+
+  /* ----------------- */
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +62,5 @@
     transform: rotate(360deg);
   }
 }
+
+
