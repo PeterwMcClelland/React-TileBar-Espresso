@@ -32,7 +32,7 @@
 /* Header */
 
 .header {
-  height: 200px;
+  height: 150px;
   width: auto;
   background-color: bisque;
   
@@ -51,6 +51,17 @@
   }
 
   /* ----------------- */
+
+  /* Main Body */
+
+  .mainbody {
+    background: url(../public/assets/img/mainimg.JPG) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
+  }
 
 
 

@@ -1,8 +1,9 @@
 import React from "react";
 
 
-function Header() {
+function Main() {
     return (
+        <body>
         <header className="header">
             <h1 className="titleh1">TileBar</h1>
             <nav className="navbar">
@@ -13,7 +14,15 @@ function Header() {
                 </ul>
             </nav>
         </header>
+        <div className="mainbody">
+            TileBar
+        </div>
+
+        
+            
+        </body>
+        
     )
 }
 
-export default Header
+export default Main;
