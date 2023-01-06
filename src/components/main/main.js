@@ -3,23 +3,21 @@ import React from "react";
 
 function Main() {
     return (
-        <body>
+        <body className="background">
         <header className="header">
             <h1 className="titleh1">TileBar</h1>
             <nav className="navbar">
                 <ul className="navcomponents">
-                    <li>About</li>
-                    <li>Gallery</li>
-                    <li>Contact</li>
+                    <li id="about">About</li>
+                    <li id="menu">Menu</li>
+                    <li id="gallery">Gallery</li>
+                    <li id="contact">Contact</li>
                 </ul>
             </nav>
         </header>
-        <div className="mainbody">
-            TileBar
-        </div>
-
-        
+            <div className="mainbody">
             
+            </div> 
         </body>
         
     )

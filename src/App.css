@@ -29,17 +29,24 @@
 }
 
 
+
+
 /* Header */
 
 .header {
-  height: 150px;
-  width: auto;
-  background-color: bisque;
-  
+  height: 120px;
+  background-color: rgba(163, 163, 163, 0.527);
+  top: 0;
+  position: sticky;
+  position: fixed!important;
+  z-index: 1000;
+  width: 100%;
 }
 
 .titleh1 {
   font-weight: bold;
+  color: white;
+  padding-left: 15px;
   }
 
   /* .navbar {
@@ -48,19 +55,49 @@
 
   .navcomponents {
     list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-weight: 500;
+    padding-bottom: 20px;
+  }
+
+  #menu:hover {
+    color: rgb(175, 175, 175);
+    font-weight: bolder;
+    cursor: pointer;
+  }
+
+  #about:hover {
+    color: rgb(175, 175, 175);
+    font-weight: bolder;
+    cursor: pointer;
+  }
+
+  #gallery:hover {
+    color: rgb(175, 175, 175);
+    font-weight: bolder;
+    cursor: pointer;
+  }
+
+  #contact:hover {
+    color: rgb(175, 175, 175);
+    font-weight: bolder;
+    cursor: pointer;
   }
 
   /* ----------------- */
 
   /* Main Body */
 
-  .mainbody {
+  .background {
     background: url(../public/assets/img/mainimg.JPG) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 500px;
+    height: 1000px;
+    top: 0px;
   }
 
 
