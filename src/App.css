@@ -100,6 +100,31 @@
     top: 0px;
   }
 
+  /* Menu */
+
+  .h1menu {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .menubody {
+    padding: 20px, .2;
+  }
+
+  .menuheader {
+    opacity: .4;
+  }
+
+  .menuimg {
+    background-image: url(../public/assets/img/Menu2.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1600px;
+    
+  }
+
 
 
 @keyframes App-logo-spin {
