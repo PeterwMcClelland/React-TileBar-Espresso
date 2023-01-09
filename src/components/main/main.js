@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+
 
 function Main()  {
     return (
@@ -10,9 +10,7 @@ function Main()  {
             <nav className="navbar">
                 <ul className="navcomponents">
                     <li id="about">About</li>
-                    <Link to="/menu">
                     <li>Menu</li>
-                    </Link>
                     <li id="gallery">Gallery</li>
                     <li id="contact">Contact</li>
                 </ul>
