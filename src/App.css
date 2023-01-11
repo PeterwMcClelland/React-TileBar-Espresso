@@ -112,7 +112,7 @@ a {
   }
 
   .menubody {
-    padding: 20px, .2;
+    background-color: beige;
   }
 
   .menuheader {
@@ -125,7 +125,7 @@ a {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 1600px;
+    height: 1450px;
     background-repeat: no-repeat;
     background-size: 75%;
     background-position: center;
