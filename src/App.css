@@ -131,6 +131,30 @@ a {
     background-position: center;
   }
 
+  /* Gallery */
+
+.gallery {
+  line-height:0;
+  -webkit-column-count:5; 
+  -webkit-column-gap:5px; 
+  -moz-column-count:5;
+  -moz-column-gap:5px;
+  column-count:2;
+  column-gap:5px;
+}
+
+.gallery img:hover {
+  filter:none;
+}
+
+.gallery img {
+  width: 100% !important;
+  height: auto !important;
+  margin-bottom:5px; 
+  filter: grayscale(100%);
+  transition: filter .5s;
+}
+
 
 
 @keyframes App-logo-spin {
