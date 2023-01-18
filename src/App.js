@@ -21,19 +21,19 @@ function App() {
                     </div>
                     <div className="navlink">
                         <NavLink to="/menu" style={({ isActive }) => ({ 
-                            color: isActive ? 'ivory' : 'lightgray' })}>
+                            color: isActive ? 'ivory' : 'gray' })}>
                             Menu
                         </NavLink>
                     </div>
                     <div className="navlink">
                         <NavLink to="/gallery" style={({ isActive }) => ({ 
-                            color: isActive ? 'ivory' : 'lightgray' })}>
+                            color: isActive ? 'ivory' : 'gray' })}>
                             Gallery
                         </NavLink>
                     </div>
                     <div className="navlink">
                         <NavLink to="/about" style={({ isActive }) => ({ 
-                            color: isActive ? 'ivory' : 'lightgray' })}>
+                            color: isActive ? 'ivory' : 'gray' })}>
                             About
                         </NavLink>
                     </div>
