@@ -95,7 +95,7 @@ a {
   /* Main Body */
 
   .background {
-    background: url(../public/assets/img/mainimg.JPG) no-repeat center center fixed; 
+    background: url(./assets/img/mainimg.JPG) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -120,7 +120,7 @@ a {
   }
 
   .menuimg {
-    background-image: url(../public/assets/img/Menu2.jpg);
+    background-image: url(./assets/img/Menu2.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
