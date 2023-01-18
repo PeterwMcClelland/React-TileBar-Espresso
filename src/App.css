@@ -141,6 +141,7 @@ a {
   -moz-column-gap:5px;
   column-count:2;
   column-gap:5px;
+  padding-top: 95px;
 }
 
 .gallery img:hover {
