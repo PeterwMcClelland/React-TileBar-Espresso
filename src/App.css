@@ -156,6 +156,18 @@ a {
   transition: filter .5s;
 }
 
+/* About */
+
+.aboutbody {
+  background: url(./assets/img/IMG_7581.JPG) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1000px;
+    top: 0px;
+    background-position: top;
+}
 
 
 @keyframes App-logo-spin {
