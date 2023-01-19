@@ -169,6 +169,31 @@ a {
     background-position: top;
 }
 
+.abouticons {
+  align-items: unset;
+  padding-top: 20px;
+}
+
+.flex-row-about {
+  flex-wrap: wrap;
+    align-items: center;
+    column-gap: 5%;
+    margin: auto;
+    display: flex;
+    justify-content: right;
+    position: fixed;
+
+    inline-size: -webkit-fill-available;
+    padding-left: 144px;
+    padding-right: 142px;
+    padding-top: 140px;
+}
+
+.iconstyle {
+  color: ivory;
+  font-size: xx-large;
+}
+
 
 @keyframes App-logo-spin {
   from {
