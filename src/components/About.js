@@ -11,15 +11,15 @@ function About()  {
        <div>
         <ul className="flex-row-about">
     
-            <a className="iconstyle" href="https://github.com/PeterwMcClelland" target='blank'>
+            <a className="iconstyle" href="https://www.facebook.com/tilebarespresso/" target='blank'>
                 <lu>
-                <i class="fa-brands fa-github-square fa-2xl"></i>
+                <i class="fa-brands fa-square-facebook"></i>
               </lu>
             </a>
             
-          <a className="iconstyle" href="https://www.linkedin.com/in/peterwmcclelland/" target='blank'>
+          <a className="iconstyle" href="https://www.instagram.com/tilebarespresso/?hl=en" target='blank'>
               <lu>
-              <i class="fa-brands fa-linkedin fa-2xl"></i>
+              <i class="fa-brands fa-instagram fa-2xl"></i>
               </lu>
           </a>
           <lu>

@@ -28,7 +28,7 @@
   color: #61dafb;
 }
 
-
+/* ----------------- */
 
 
 /* Header */
@@ -72,6 +72,7 @@
     padding-bottom: 20px;
     margin: 10px;
     font-weight: bolder;
+    font-size: larger;
   }
 
   #tilebarnav {
@@ -89,8 +90,9 @@ a {
     cursor: pointer;
   }
 
-
   /* ----------------- */
+
+
 
   /* Main Body */
 
@@ -103,6 +105,10 @@ a {
     height: 1000px;
     top: 0px;
   }
+
+  /* ----------------- */
+
+
 
   /* Menu */
 
@@ -128,8 +134,13 @@ a {
     height: 1450px;
     background-repeat: no-repeat;
     background-size: 75%;
+    padding-top: 205px;
     background-position: center;
   }
+
+  /* ----------------- */
+
+
 
   /* Gallery */
 
@@ -155,6 +166,10 @@ a {
   filter: grayscale(100%);
   transition: filter .5s;
 }
+
+/* ----------------- */
+
+
 
 /* About */
 
@@ -193,6 +208,8 @@ a {
   color: ivory;
   font-size: xx-large;
 }
+
+/* ---------------- */
 
 
 @keyframes App-logo-spin {
