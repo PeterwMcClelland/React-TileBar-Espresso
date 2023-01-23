@@ -15,25 +15,25 @@ function App() {
                 <div className="navbar">
                     <div id="tilebarnav" className="navlink">
                         <NavLink to="/" style={({ isActive }) => ({ 
-                            color: isActive ? 'ivory' : 'ivory' })}>
+                            color: isActive ? 'ivory' : 'beige' })}>
                             TileBar
                         </NavLink>
                     </div>
                     <div className="navlink">
                         <NavLink to="/menu" style={({ isActive }) => ({ 
-                            color: isActive ? 'ivory' : 'gray' })}>
+                            color: isActive ? 'ivory' : 'beige' })}>
                             Menu
                         </NavLink>
                     </div>
                     <div className="navlink">
                         <NavLink to="/gallery" style={({ isActive }) => ({ 
-                            color: isActive ? 'ivory' : 'gray' })}>
+                            color: isActive ? 'ivory' : 'beige' })}>
                             Gallery
                         </NavLink>
                     </div>
                     <div className="navlink">
                         <NavLink to="/about" style={({ isActive }) => ({ 
-                            color: isActive ? 'ivory' : 'gray' })}>
+                            color: isActive ? 'ivory' : 'beige' })}>
                             About
                         </NavLink>
                     </div>

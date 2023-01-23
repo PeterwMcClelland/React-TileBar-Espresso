@@ -54,7 +54,7 @@
     padding: 10px;
     display: inline-flex;
     height: 75px;
-    background-color: rgba(163, 163, 163, 0.527);
+    background-color: rgb(80 80 80 / 53%);
     top: 0;
     position: sticky;
     position: fixed!important;
@@ -163,7 +163,7 @@ a {
   width: 100% !important;
   height: auto !important;
   margin-bottom:5px; 
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
   transition: filter .5s;
 }
 
@@ -174,7 +174,7 @@ a {
 /* About */
 
 .aboutbody {
-  background: url(./assets/img/IMG_7581.JPG) no-repeat center center fixed; 
+  background: url(./assets/img/tilebaredit.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -194,20 +194,18 @@ a {
 }
 
 .flex-row-about {
-  flex-wrap: wrap;
     align-items: center;
     column-gap: 10%;
     margin: auto;
-    display: flex;
     justify-content: right;
     position: fixed;
-
+    height: 40%;
     inline-size: -webkit-fill-available;
     padding-left: 144px;
     padding-right: 142px;
-    padding-top: 140px;
-    float: right;
-  width: 60%;
+    padding-top: 110px;
+    display: grid;
+    width: 35%;
 }
 
 .iconstyle {
@@ -217,13 +215,9 @@ a {
 
 .col1 {
   float: left;
-  width: 40%;
-  font-family: monospace;
-  float: left;
-    width: 40%;
-    font-size: larger;
+    font-size: x-large;
     width: 400px;
-    padding-top: 132px;
+    padding-top: 150px;
     font-family: monospace;
     position: fixed;
   text-align: center;
