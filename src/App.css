@@ -182,17 +182,21 @@ a {
     height: 1000px;
     top: 0px;
     background-position: top;
+    
 }
 
 .abouticons {
   align-items: unset;
   padding-top: 20px;
+  grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    justify-items: center;
 }
 
 .flex-row-about {
   flex-wrap: wrap;
     align-items: center;
-    column-gap: 5%;
+    column-gap: 10%;
     margin: auto;
     display: flex;
     justify-content: right;
@@ -202,11 +206,32 @@ a {
     padding-left: 144px;
     padding-right: 142px;
     padding-top: 140px;
+    float: right;
+  width: 60%;
 }
 
 .iconstyle {
   color: ivory;
   font-size: xx-large;
+}
+
+.col1 {
+  float: left;
+  width: 40%;
+  font-family: monospace;
+  float: left;
+    width: 40%;
+    font-size: larger;
+    width: 400px;
+    padding-top: 132px;
+    font-family: monospace;
+    position: fixed;
+  text-align: center;
+}
+
+.col2 {
+  float: right;
+  width: 60%;
 }
 
 /* ---------------- */
