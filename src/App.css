@@ -30,6 +30,9 @@
 
 /* ----------------- */
 
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 
 /* Header */
 
@@ -72,12 +75,14 @@
     padding-bottom: 20px;
     margin: 10px;
     font-weight: bolder;
-    font-size: larger;
+    font-size: xx-large;
+    font-family: 'Bebas Neue', cursive;
   }
 
   #tilebarnav {
-    font-size: xx-large;
+    font-size: xxx-large;
     font-weight: bolder;
+    font-family: 'Bebas Neue', cursive;
 }
 
 a {
