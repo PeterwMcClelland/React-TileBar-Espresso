@@ -32,6 +32,7 @@
 
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 
 
 /* Header */
@@ -223,7 +224,7 @@ a {
     font-size: x-large;
     width: 400px;
     padding-top: 150px;
-    font-family: monospace;
+    font-family: 'Kanit', sans-serif;
     position: fixed;
   text-align: center;
 }
