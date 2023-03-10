@@ -17,6 +17,10 @@ https://react-tilebarespresso.herokuapp.com/
 
 https://github.com/PeterwMcClelland/React-TileBar-Espresso
 
+## Contact
+Feel free to reach out if you have any questions peterwmcclelland@gmail.com.
 
 ## Made By
 Peter McClelland
+
+
