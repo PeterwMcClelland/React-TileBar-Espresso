@@ -14,7 +14,6 @@ React, HTML, CSS, Javascript, Fontawesome & Heroku.
 ## GitHub & Deployed Site
 
 https://react-tilebarespresso.herokuapp.com/
-
 https://github.com/PeterwMcClelland/React-TileBar-Espresso
 
 ## Contact
