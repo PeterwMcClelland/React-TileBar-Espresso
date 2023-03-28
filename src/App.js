@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Menu from "./components/Menu";
 import Gallery from "./components/Gallery";
+import Careers from "./components/Careers";
 
 import "./App.css";
 
@@ -37,12 +38,19 @@ function App() {
                             About
                         </NavLink>
                     </div>
+                    <div className="navlink">
+                        <NavLink to="/careers" style={({ isActive }) => ({ 
+                            color: isActive ? 'darkgreen' : 'beige' })}>
+                            Careers
+                        </NavLink>
+                    </div>
                 </div>
                 <Routes>
                     <Route exact path="/" element={<Home />} />
                     <Route exact path="/about" element={<About />} />
                     <Route exact path="/menu" element={<Menu />} />
                     <Route exact path="/gallery" element={<Gallery />} />
+                    <Route exact path="/careers" element={<Careers />} />
                 </Routes>
             </BrowserRouter>
         </>
