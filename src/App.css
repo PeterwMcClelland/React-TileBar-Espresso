@@ -234,6 +234,17 @@ a {
   width: 60%;
 }
 
+/* Career */
+
+.careerform {
+  text-align: -webkit-center;
+  margin-top: 150px;
+}
+
+.forminputs {
+  display: table-caption;
+}
+
 /* ---------------- */
 
 

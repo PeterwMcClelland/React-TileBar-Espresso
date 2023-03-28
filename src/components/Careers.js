@@ -4,7 +4,14 @@ function Careers()  {
     return(
         
         <>
-        
+        <div className="careerform">
+        <form className="forminputs">
+            <input></input>
+            <input></input>
+            <input></input>
+
+        </form>
+        </div>
         </>
         
     )
