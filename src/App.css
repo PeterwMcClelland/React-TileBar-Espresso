@@ -239,13 +239,34 @@ a {
 .careerform {
   text-align: -webkit-center;
   margin-top: 150px;
+
 }
 
 .forminputs {
   display: table-caption;
 }
 
+.coverletter {
+  height: 150px;
+  width: 275px;
+  margin: 5px;
+}
+
+.firstlastname {
+  margin: 5px;
+}
+
+.subject {
+  margin: 5px;
+}
+
 /* ---------------- */
+
+/* @media (max-width: 600px) {
+  .menuimg {
+    padding-top: 50px;
+  }
+} */
 
 
 @keyframes App-logo-spin {
