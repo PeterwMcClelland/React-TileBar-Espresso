@@ -9,52 +9,71 @@ import Careers from "./components/Careers";
 import "./App.css";
 
 function App() {
-  
-    return (
-        <>
-            <BrowserRouter>
-                <div className="navbar">
-                    <div id="tilebarnav" className="navlink">
-                        <NavLink to="/" style={({ isActive }) => ({ 
-                            color: isActive ? 'ivory' : 'beige' })}>
-                            TileBar
-                        </NavLink>
-                    </div>
-                    <div className="navlink">
-                        <NavLink to="/menu" style={({ isActive }) => ({ 
-                            color: isActive ? 'darkgreen' : 'beige' })}>
-                            Menu
-                        </NavLink>
-                    </div>
-                    <div className="navlink">
-                        <NavLink to="/gallery" style={({ isActive }) => ({ 
-                            color: isActive ? 'darkgreen' : 'beige' })}>
-                            Gallery
-                        </NavLink>
-                    </div>
-                    <div className="navlink">
-                        <NavLink to="/about" style={({ isActive }) => ({ 
-                            color: isActive ? 'darkgreen' : 'beige' })}>
-                            About
-                        </NavLink>
-                    </div>
-                    <div className="navlink">
-                        <NavLink to="/careers" style={({ isActive }) => ({ 
-                            color: isActive ? 'darkgreen' : 'beige' })}>
-                            Careers
-                        </NavLink>
-                    </div>
-                </div>
-                <Routes>
-                    <Route exact path="/" element={<Home />} />
-                    <Route exact path="/about" element={<About />} />
-                    <Route exact path="/menu" element={<Menu />} />
-                    <Route exact path="/gallery" element={<Gallery />} />
-                    <Route exact path="/careers" element={<Careers />} />
-                </Routes>
-            </BrowserRouter>
-        </>
-    );
+  return (
+    <>
+      <BrowserRouter>
+        <div className="navbar">
+          <div id="tilebarnav" className="navlink">
+            <NavLink
+              to="/"
+              style={({ isActive }) => ({
+                color: isActive ? "ivory" : "beige",
+              })}
+            >
+              TileBar
+            </NavLink>
+          </div>
+          <div className="navlink">
+            <NavLink
+              to="/menu"
+              style={({ isActive }) => ({
+                color: isActive ? "darkgreen" : "beige",
+              })}
+            >
+              Menu
+            </NavLink>
+          </div>
+          <div className="navlink">
+            <NavLink
+              to="/gallery"
+              style={({ isActive }) => ({
+                color: isActive ? "darkgreen" : "beige",
+              })}
+            >
+              Gallery
+            </NavLink>
+          </div>
+          <div className="navlink">
+            <NavLink
+              to="/about"
+              style={({ isActive }) => ({
+                color: isActive ? "darkgreen" : "beige",
+              })}
+            >
+              About
+            </NavLink>
+          </div>
+          <div className="navlink">
+            <NavLink
+              to="/careers"
+              style={({ isActive }) => ({
+                color: isActive ? "darkgreen" : "beige",
+              })}
+            >
+              Careers
+            </NavLink>
+          </div>
+        </div>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/about" element={<About />} />
+          <Route exact path="/menu" element={<Menu />} />
+          <Route exact path="/gallery" element={<Gallery />} />
+          <Route exact path="/careers" element={<Careers />} />
+        </Routes>
+      </BrowserRouter>
+    </>
+  );
 }
-  
+
 export default App;
